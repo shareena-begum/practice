@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+    background-color: rgb(21, 102, 173);
+    text-align: center;
+}
+
+#appleShelf {
+    background-color: lightcoral;
+    border-radius: 100px;
+    height:60px;
+    margin: 20px 0;
+}
+
+#orangeShelf {
+    background: lightsalmon;
+    border-radius: 100px;
+    height: 45px;
+    margin: 20px 0;
+}
+
+#bananaShelf {
+    background: rgb(235, 235, 162);
+    border-radius: 100px;
+    height: 35px;
+}
