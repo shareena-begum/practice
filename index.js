@@ -84,68 +84,68 @@
 
         // *********************
 
-    //     // ====Return Random items====
+        // ====Return Random items====
 
-    //     let hands= ["Lily", "Lavender", "Liliac"]
+        let hands= ["Lily", "Lavender", "Liliac"]
 
-    // // // Create a function that returns a random item from the array
+    // Create a function that returns a random item from the array
 
-    // // // function getHand() {
-    // // //     let randomIndex = Math.random() //(0-0.999)
-    // // //     return randomIndex
-    // // // }
+    // function getHand() {
+    //     let randomIndex = Math.random() //(0-0.999)
+    //     return randomIndex
+    // }
     
-    // // // console.log(getHand())
+    // console.log(getHand())
 
-    // // // Multiply Math.random()*3// (0-2.99)
+    // Multiply Math.random()*3// (0-2.99)
 
-    // // function getHand(){
-    // //     let randomIndex= Math.random()*3
-    // //     return randomIndex
-    // // }
-
-    // // console.log(getHand())
-
-    // //to remove .99 value use Math.floor=====
-
-    // function getHand(){
-    //     let randomIndex = Math.floor(Math.random()*3)
-    //     return hands[randomIndex]
-    // }
+    function getHand(){
+        let randomIndex= Math.random()*3
+        return randomIndex
+    }
 
     // console.log(getHand())
 
-    // //Example:2
+    //to remove .99 value use Math.floor=====
 
-    // let hands= ["Taj Mahal", "Mount Everest", "Himalayas"]
+    function getHand(){
+        let randomIndex = Math.floor(Math.random()*3)
+        return hands[randomIndex]
+    }
 
-    // function getHand(){
-    //     let randomIndex= Math.floor(Math.random()*3)
-    //     return hands[randomIndex]
-    // }
+    console.log(getHand())
 
-    // console.log(getHand())
+    //Example:2
+
+    let hands= ["Taj Mahal", "Mount Everest", "Himalayas"]
+
+    function getHand(){
+        let randomIndex= Math.floor(Math.random()*3)
+        return hands[randomIndex]
+    }
+
+    console.log(getHand())
 
     // ************
 
-    let fruit= ["Apple,", "Orange", "Banana", "Apple,", "Banana", "Apple,", "Orange", "Banana", "Apple,"]
-    let appleShelf = document.getElementById("appleShelf")
-    let orangeShelf = document.getElementById("orangeShelf")
-    let bananaShelf= document.getElementById("bananaShelf")
+    // let fruit= ["Apple,", "Orange", "Banana", "Apple,", "Banana", "Apple,", "Orange", "Banana", "Apple,"]
+    // let appleShelf = document.getElementById("appleShelf")
+    // let orangeShelf = document.getElementById("orangeShelf")
+    // let bananaShelf= document.getElementById("bananaShelf")
 
-    function fruitSort(){
-        for (let i=0; i < fruit.length; i++){
-            if (fruit[i]=== "Apple,"){
-                appleShelf.textContent += "Apple,"
-            } else if (fruit[i]==="Orange"){
-                orangeShelf.textContent += "Orange,"
-            } else {
-                bananaShelf.textContent += "Banana,"
-            }
-        }
-    }
+    // function fruitSort(){
+    //     for (let i=0; i < fruit.length; i++){
+    //         if (fruit[i]=== "Apple,"){
+    //             appleShelf.textContent += "Apple,"
+    //         } else if (fruit[i]==="Orange"){
+    //             orangeShelf.textContent += "Orange,"
+    //         } else {
+    //             bananaShelf.textContent += "Banana,"
+    //         }
+    //     }
+    // }
 
-    fruitSort()
+    // fruitSort()
 
 
 
